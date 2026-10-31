@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="8" result="Passed" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-20 10:54:08Z" end-time="2026-10-20 10:54:30Z" duration="21.7640362">
+  <test-suite type="TestSuite" id="1016" name="CrashSimulator" fullname="CrashSimulator" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-20 10:54:08Z" end-time="2026-10-20 10:54:30Z" duration="21.764036" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1010" name="CrashSimulator.PlayModeTests.dll" fullname="/private/tmp/crashsim-checked/Library/ScriptAssemblies/CrashSimulator.PlayModeTests.dll" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-20 10:54:08Z" end-time="2026-10-20 10:54:30Z" duration="21.759566" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="99916" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1011" name="CrashSimulator" fullname="CrashSimulator" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-20 10:54:08Z" end-time="2026-10-20 10:54:30Z" duration="21.759305" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1012" name="Tests" fullname="CrashSimulator.Tests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-20 10:54:08Z" end-time="2026-10-20 10:54:30Z" duration="21.759185" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="VehiclePlayModeTests" fullname="CrashSimulator.Tests.VehiclePlayModeTests" classname="CrashSimulator.Tests.VehiclePlayModeTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-20 10:54:08Z" end-time="2026-10-20 10:54:30Z" duration="21.758426" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1003" name="AcceleratorMovesForwardAndBrakeStops" fullname="CrashSimulator.Tests.VehiclePlayModeTests.AcceleratorMovesForwardAndBrakeStops" methodname="AcceleratorMovesForwardAndBrakeStops" classname="CrashSimulator.Tests.VehiclePlayModeTests" runstate="Runnable" seed="1136321981" result="Passed" start-time="2026-10-20 10:54:08Z" end-time="2026-10-20 10:54:14Z" duration="6.048461" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="BarrierImpactIsReported" fullname="CrashSimulator.Tests.VehiclePlayModeTests.BarrierImpactIsReported" methodname="BarrierImpactIsReported" classname="CrashSimulator.Tests.VehiclePlayModeTests" runstate="Runnable" seed="1824349005" result="Passed" start-time="2026-10-20 10:54:14Z" end-time="2026-10-20 10:54:16Z" duration="2.405279" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="FallingBelowTrackAutomaticallyResets" fullname="CrashSimulator.Tests.VehiclePlayModeTests.FallingBelowTrackAutomaticallyResets" methodname="FallingBelowTrackAutomaticallyResets" classname="CrashSimulator.Tests.VehiclePlayModeTests" runstate="Runnable" seed="202995385" result="Passed" start-time="2026-10-20 10:54:16Z" end-time="2026-10-20 10:54:17Z" duration="1.216923" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="OppositeThrottleBrakesBeforeReversing" fullname="CrashSimulator.Tests.VehiclePlayModeTests.OppositeThrottleBrakesBeforeReversing" methodname="OppositeThrottleBrakesBeforeReversing" classname="CrashSimulator.Tests.VehiclePlayModeTests" runstate="Runnable" seed="1204403310" result="Passed" start-time="2026-10-20 10:54:17Z" end-time="2026-10-20 10:54:22Z" duration="4.739224" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="ResetRestoresPoseVelocityWheelsAndCamera" fullname="CrashSimulator.Tests.VehiclePlayModeTests.ResetRestoresPoseVelocityWheelsAndCamera" methodname="ResetRestoresPoseVelocityWheelsAndCamera" classname="CrashSimulator.Tests.VehiclePlayModeTests" runstate="Runnable" seed="506979120" result="Passed" start-time="2026-10-20 10:54:22Z" end-time="2026-10-20 10:54:23Z" duration="1.220162" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="SteeringChangesVehicleHeading" fullname="CrashSimulator.Tests.VehiclePlayModeTests.SteeringChangesVehicleHeading" methodname="SteeringChangesVehicleHeading" classname="CrashSimulator.Tests.VehiclePlayModeTests" runstate="Runnable" seed="765029933" result="Passed" start-time="2026-10-20 10:54:23Z" end-time="2026-10-20 10:54:27Z" duration="3.704232" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="SuspensionSettlesAndFourWheelsAreGrounded" fullname="CrashSimulator.Tests.VehiclePlayModeTests.SuspensionSettlesAndFourWheelsAreGrounded" methodname="SuspensionSettlesAndFourWheelsAreGrounded" classname="CrashSimulator.Tests.VehiclePlayModeTests" runstate="Runnable" seed="1423249170" result="Passed" start-time="2026-10-20 10:54:27Z" end-time="2026-10-20 10:54:28Z" duration="1.205046" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="TouchButtonsCombineAndReleaseWithoutSticking" fullname="CrashSimulator.Tests.VehiclePlayModeTests.TouchButtonsCombineAndReleaseWithoutSticking" methodname="TouchButtonsCombineAndReleaseWithoutSticking" classname="CrashSimulator.Tests.VehiclePlayModeTests" runstate="Runnable" seed="2005233383" result="Passed" start-time="2026-10-20 10:54:28Z" end-time="2026-10-20 10:54:30Z" duration="1.206750" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: /Users/elifmuberraguneslice/Library/Application Support/DefaultCompany/CrashSimulator/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

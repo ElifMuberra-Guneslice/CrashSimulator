@@ -2,6 +2,10 @@
 # Source: https://github.com/github/gitignore/blob/main/Unity.gitignore
 # Last synced: 2026-07-02
 # License: CC0-1.0
+
+# macOS metadata and per-user Unity Assistant preferences
+.DS_Store
+/ProjectSettings/Packages/com.unity.ai.assistant/Settings.json
 #
 # This template is maintained from the github/gitignore repository
 # and distributed under Creative Commons Zero v1.0 Universal license.

@@ -1,0 +1,5 @@
+{
+  "name": "CrashSimulator.Runtime",
+  "rootNamespace": "CrashSimulator",
+  "references": ["Unity.InputSystem", "Unity.ugui", "Unity.TextMeshPro"]
+}

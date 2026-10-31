@@ -1,0 +1,17 @@
+{
+    "unityVersion": "6000.3.26f1",
+    "timestamp": "2026-10-27T07:31:22.7963200Z",
+    "graphicsDevice": "Null",
+    "missingScripts": [],
+    "brokenReferences": [],
+    "cameras": [
+        "Assets/Scenes/MainMenu.unity:Main Camera targetTexture=none allowMSAA=True depthMode=None renderType=Base(default) stack=0",
+        "Assets/Scenes/TestTrack.unity:Main Camera targetTexture=none allowMSAA=True depthMode=None renderType=Base stack=0"
+    ],
+    "pipelines": [
+        "Mobile_RPAsset depth=False opaque=False msaa=1",
+        "PC_RPAsset depth=True opaque=True msaa=1"
+    ],
+    "behaviourCount": 711,
+    "passed": true
+}

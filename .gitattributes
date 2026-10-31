@@ -74,6 +74,11 @@ Packages/packages-lock.json linguist-generated
 *.cubemap               lfs
 *.unitypackage          lfs
 
+# glTF external binary buffers (large, non-text source data)
+Assets/_CrashSimulator/Environment/City/Source/CityInfrastructureMap3/scene.bin lfs
+Assets/Models/Vehicles/LucidAirSapphire2024/scene.bin lfs
+Assets/Models/Vehicles/LowPolySedan/scene.bin lfs
+
 # 3D models
 *.3dm                   lfs
 *.3ds                   lfs
